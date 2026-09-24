@@ -81,7 +81,7 @@ jobs:
                               "original": game.get("price_overview", {}).get("initial_formatted"),
                               "current": game.get("price_overview", {}).get("final_formatted"),
                               "discount_percent": game.get("price_overview", {}).get("discount_percent", 0)
-                          } if game.get("price_overview") else none,
+                          } if game.get("price_overview") else None,
                           
                           "steam_url":
                               f"https://store.steampowered.com/app/{appid}/"
