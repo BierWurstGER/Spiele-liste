@@ -1,0 +1,114 @@
+name: Steam Spiele aktualisieren
+
+on:
+  push:
+    paths:
+      - "games.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-games:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Steam-Daten abrufen
+        run: |
+          python <<'PY'
+          import json
+          import urllib.request
+          import time
+
+          with open("games.json", "r", encoding="utf-8") as f:
+              games = json.load(f)
+
+          result = []
+
+          for entry in games:
+              appid = entry["appid"]
+
+              print(f"Lade Steam-Daten für AppID {appid}...")
+
+              url = (
+                  "https://store.steampowered.com/api/appdetails"
+                  f"?appids={appid}&l=german"
+              )
+
+              try:
+                  request = urllib.request.Request(
+                      url,
+                      headers={
+                          "User-Agent": "Mozilla/5.0"
+                      }
+                  )
+
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      data = json.loads(response.read().decode("utf-8"))
+
+                  app = data.get(str(appid))
+
+                  if app and app.get("success"):
+                      game = app["data"]
+
+                      result.append({
+                          "appid": appid,
+                          "name": game.get("name"),
+                          "type": game.get("type"),
+                          "header_image": game.get("header_image"),
+                          "short_description": game.get("short_description"),
+                          "developers": game.get("developers", []),
+                          "publishers": game.get("publishers", []),
+                          "genres": [
+                              genre["description"]
+                              for genre in game.get("genres", [])
+                          ],
+                          "release_date": game.get(
+                              "release_date", {}
+                          ).get("date"),
+                          "steam_url":
+                              f"https://store.steampowered.com/app/{appid}/"
+                      })
+
+                      print(f"OK: {game.get('name')}")
+
+                  else:
+                      print(f"FEHLER: AppID {appid} nicht gefunden")
+
+              except Exception as e:
+                  print(f"FEHLER bei {appid}: {e}")
+
+              # Kleine Pause zwischen Anfragen
+              time.sleep(1)
+
+          with open("games-data.json", "w", encoding="utf-8") as f:
+              json.dump(
+                  result,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+          print(f"{len(result)} Spiele gespeichert.")
+          PY
+
+      - name: Änderungen speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add games-data.json
+
+          git diff --cached --quiet || git commit -m "Spieldaten aktualisieren"
+
+          git push
