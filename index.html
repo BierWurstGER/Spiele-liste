@@ -42,13 +42,16 @@
         }
 
         .game {
-            display: flex;
-            gap: 25px;
             margin-bottom: 25px;
             padding: 20px;
             background: #1b2838;
             border-radius: 10px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-main {
+            display: flex;
+            gap: 25px;
         }
 
         .game img {
@@ -68,13 +71,80 @@
             margin-bottom: 10px;
         }
 
+        .release-date {
+            color: #8f98a0;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            margin: 15px 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .original-price {
+            color: #8f98a0;
+            text-decoration: line-through;
+            margin-right: 8px;
+            font-size: 16px;
+        }
+
+        .discount {
+            display: inline-block;
+            padding: 5px 8px;
+            margin-left: 8px;
+            background: #4c6b22;
+            color: #ffffff;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .no-price {
+            color: #8f98a0;
+            font-size: 16px;
+        }
+
+        .more-button {
+            display: inline-block;
+            padding: 10px 16px;
+            background: #2a475e;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .more-button:hover {
+            background: #3b6685;
+        }
+
+        .details {
+            display: none;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #2a475e;
+        }
+
+        .details.open {
+            display: block;
+        }
+
         .description {
             color: #c7d5e0;
             line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .developer {
+            color: #c7d5e0;
+            margin-bottom: 15px;
         }
 
         .genres {
-            margin: 15px 0;
+            margin-bottom: 20px;
         }
 
         .genre {
@@ -85,12 +155,6 @@
             background: #2a475e;
             border-radius: 4px;
             font-size: 13px;
-        }
-
-        .details {
-            color: #8f98a0;
-            font-size: 14px;
-            margin-bottom: 15px;
         }
 
         .steam-button {
@@ -120,7 +184,7 @@
         }
 
         @media (max-width: 700px) {
-            .game {
+            .game-main {
                 flex-direction: column;
             }
 
@@ -164,7 +228,8 @@
 
             gamesContainer.innerHTML = "";
 
-            games.forEach(game => {
+            games.forEach((game, index) => {
+
                 const gameElement = document.createElement("div");
                 gameElement.className = "game";
 
@@ -174,26 +239,105 @@
 
                 const developers = (game.developers || []).join(", ");
 
+                let priceHtml = "";
+
+                if (game.price) {
+
+                    const original = game.price.original;
+                    const current = game.price.current;
+                    const discount = game.price.discount_percent || 0;
+
+                    if (discount > 0 && original && current) {
+
+                        priceHtml = `
+                            <div class="price">
+                                <span class="original-price">
+                                    ${original}
+                                </span>
+
+                                ${current}
+
+                                <span class="discount">
+                                    -${discount}%
+                                </span>
+                            </div>
+                        `;
+
+                    } else if (current) {
+
+                        priceHtml = `
+                            <div class="price">
+                                ${current}
+                            </div>
+                        `;
+
+                    } else {
+
+                        priceHtml = `
+                            <div class="price no-price">
+                                Preis nicht verfügbar
+                            </div>
+                        `;
+                    }
+
+                } else {
+
+                    priceHtml = `
+                        <div class="price no-price">
+                            Preis nicht verfügbar
+                        </div>
+                    `;
+                }
+
                 gameElement.innerHTML = `
-                    <img src="${game.header_image}" alt="${game.name}">
+                    <div class="game-main">
 
-                    <div class="game-info">
-                        <h2>${game.name}</h2>
+                        <img
+                            src="${game.header_image}"
+                            alt="${game.name}"
+                        >
 
-                        <div class="details">
-                            Entwickler: ${developers || "Unbekannt"}<br>
-                            Veröffentlichung: ${game.release_date || "Unbekannt"}
+                        <div class="game-info">
+
+                            <h2>${game.name}</h2>
+
+                            <div class="release-date">
+                                Veröffentlichung:
+                                ${game.release_date || "Unbekannt"}
+                            </div>
+
+                            ${priceHtml}
+
+                            <button
+                                class="more-button"
+                                onclick="toggleDetails(${index})"
+                            >
+                                ℹ️ Mehr Informationen
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="details"
+                        id="details-${index}"
+                    >
+
+                        <div class="description">
+                            <strong>Beschreibung</strong><br><br>
+                            ${game.short_description || "Keine Beschreibung verfügbar."}
+                        </div>
+
+                        <div class="developer">
+                            <strong>Entwickler:</strong>
+                            ${developers || "Unbekannt"}
                         </div>
 
                         <div class="genres">
-                            ${genres}
+                            <strong>Genres:</strong><br><br>
+                            ${genres || "Keine Genres angegeben."}
                         </div>
-
-                        <div class="description">
-                            ${game.short_description || ""}
-                        </div>
-
-                        <br>
 
                         <a
                             class="steam-button"
@@ -203,6 +347,7 @@
                         >
                             Auf Steam ansehen
                         </a>
+
                     </div>
                 `;
 
@@ -210,6 +355,7 @@
             });
 
         } catch (error) {
+
             console.error(error);
 
             gamesContainer.innerHTML = `
@@ -217,6 +363,30 @@
                     Die Spiele konnten leider nicht geladen werden.
                 </div>
             `;
+        }
+    }
+
+    function toggleDetails(index) {
+
+        const details = document.getElementById(
+            `details-${index}`
+        );
+
+        const button = details
+            .previousElementSibling
+            .querySelector(".more-button");
+
+        if (details.classList.contains("open")) {
+
+            details.classList.remove("open");
+
+            button.textContent = "ℹ️ Mehr Informationen";
+
+        } else {
+
+            details.classList.add("open");
+
+            button.textContent = "⬆️ Weniger Informationen";
         }
     }
 
