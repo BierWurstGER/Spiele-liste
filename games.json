@@ -14,7 +14,7 @@
   {
     "title": "Moss: The Forgotten Relic",
     "price": "18,99€",
-    "isSale": true,
+    "isSale": false,
     "url": "https://steamdb.info/app/3914860/"
   }
 ]
