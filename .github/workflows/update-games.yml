@@ -46,7 +46,7 @@ jobs:
               
               url = (
                   "https://store.steampowered.com/api/appdetails"
-                  f"?appids={appid}&l=german"
+                  f"?appids={appid}&l=german&random=12345"
               )
 
               try:
