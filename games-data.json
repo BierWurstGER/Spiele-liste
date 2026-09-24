@@ -1,5 +1,26 @@
 [
   {
+    "appid": 4328440,
+    "name": "Cat Parents",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4328440/c70e704ad9ea230fa3ae0fff0fac55369bf7fb3b/header.jpg?t=1774263285",
+    "short_description": "VON DER STRASSE INS ZUHAUSE: Rettungssimulator für Katzen. Die Straßen sind voller Gefahren für diese schutzlosen Wesen. Rette Katzen, schenke ihnen Liebe und Fürsorge und gib ihnen ein Zuhause. Werde allein oder mit einem Freund ein echter Katzenelternteil und erlebe wahres Glück.",
+    "developers": [
+      "GAZE IN GAMES"
+    ],
+    "publishers": [
+      "GAZE IN GAMES"
+    ],
+    "genres": [
+      "Abenteuer",
+      "Indie",
+      "Simulationen"
+    ],
+    "release_date": "Bald verfügbar",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/4328440/"
+  },
+  {
     "appid": 2661300,
     "name": "Grounded 2",
     "type": "game",
@@ -24,5 +45,403 @@
       "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2661300/"
+  },
+  {
+    "appid": 2111550,
+    "name": "Schrodinger's Cat Burglar",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1788909787",
+    "short_description": "Portal mit Katzen – stürz dich mit allen vier Pfoten in ein quantenverschränkten Rätselabenteuer! Mieze erhält die unglaubliche Fähigkeit, an zwei Orten gleichzeitig zu sein. Erkunde tückische Testkammern, treibe Unfug und entkomme um Schnurrhaaresbreite der Gefangennahme! 🐈🐈‍⬛",
+    "developers": [
+      "Abandoned Sheep"
+    ],
+    "publishers": [
+      "Abandoned Sheep"
+    ],
+    "genres": [
+      "Abenteuer",
+      "Indie"
+    ],
+    "release_date": "21. Mai 2026",
+    "price": {
+      "original": "",
+      "current": "20,49€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/2111550/"
+  },
+  {
+    "appid": 3914860,
+    "name": "Moss: The Forgotten Relic ",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg?t=1788539047",
+    "short_description": "Ein emotionales, atmosphärisches Abenteuer, das auf den Seiten eines lebendigen Bilderbuchs stattfindet, in dem es von Mythen und uralter Magie nur so wimmelt. Begleite eine winzige, aber entschlossene Heldin auf einer beherzten Reise voller Herausforderungen, Tapferkeit und Zusammenhänge.",
+    "developers": [
+      "Polyarc",
+      "Blackbird Interactive"
+    ],
+    "publishers": [
+      "Polyarc"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Indie"
+    ],
+    "release_date": "16. Jul. 2026",
+    "price": {
+      "original": "",
+      "current": "18,99€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/3914860/"
+  },
+  {
+    "appid": 2197890,
+    "name": "Paranormal Cleanup",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2197890/57fc44b70aec2940c644c5399c8f36c8fca77391/header.jpg?t=1788449888",
+    "short_description": "Mach dich bereit für die schlimmste Putzschicht deines Lebens: Entstopfe eklige Toiletten und schrubbe Ektoplasma in diesem 1-4 Spieler Online-Koop-Survival-Horrorspiel. Doch pass auf, lass dich nicht von den Entities erwischen, die auf der Jagd nach dir sind!",
+    "developers": [
+      "Manic Mice"
+    ],
+    "publishers": [
+      "Manic Mice"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Indie"
+    ],
+    "release_date": "30. Mai 2025",
+    "price": {
+      "original": "",
+      "current": "9,75€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/2197890/"
+  },
+  {
+    "appid": 4656000,
+    "name": "BOMBANANA!",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1789738286",
+    "short_description": "Chaos &amp; Spaß beim Bombenentschärfen mit deinen affigen Freunden! In diesem 3-Spieler-Koop spielt ihr blinde, taube und stumme Affen, die nur einen Teil der Infos haben, die ihr braucht. Kommuniziert, löst Rätsel als Team und beeilt euch: Könnt ihr die Bombe entschärfen, bevor sie explodiert?",
+    "developers": [
+      "Lefto Studio"
+    ],
+    "publishers": [
+      "TARK"
+    ],
+    "genres": [
+      "Gelegenheitsspiele",
+      "Indie"
+    ],
+    "release_date": "2. Sep. 2026",
+    "price": {
+      "original": "",
+      "current": "8,15€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/4656000/"
+  },
+  {
+    "appid": 4704690,
+    "name": "MECCHA CHAMELEON",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/163e2a742e5fb8e1f5d1e3a890da98f04ab809d4/header.jpg?t=1789464996",
+    "short_description": "Paint yourself to blend in! &quot;Meccha Chameleon&quot; is a new-sensation hide-and-seek game where you paint your white body to mimic the stage. Spot, pose, and &quot;artistic skill&quot; are keys to survival. Deceive Seekers with techniques that put chameleons to shame! Supports public matches and streaming.",
+    "developers": [
+      "lemorion_1224"
+    ],
+    "publishers": [
+      "lemorion_1224"
+    ],
+    "genres": [
+      "Gelegenheitsspiele"
+    ],
+    "release_date": "9. Jun. 2026",
+    "price": {
+      "original": "",
+      "current": "6,15€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/4704690/"
+  },
+  {
+    "appid": 4380490,
+    "name": "Cat Mail Co.",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1789733916",
+    "short_description": "Halte ein gemütliches Katzenpostamt am Laufen. Hole Päckchen vom Boot, sortiere sie, stelle sie zu und ordne alles so, wie du willst. Nachts offenbart der Mond verborgenes Wissen über die Pakete. Beseitige den mysteriösen Berg von Paketen und schalte neue Fähigkeiten und Zielorte frei.",
+    "developers": [
+      "Maracas Studio"
+    ],
+    "publishers": [
+      "Maracas Studio",
+      "Gamersky Games"
+    ],
+    "genres": [
+      "Indie",
+      "Simulationen"
+    ],
+    "release_date": "9. Jul. 2026",
+    "price": {
+      "original": "",
+      "current": "14,99€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/4380490/"
+  },
+  {
+    "appid": 3218230,
+    "name": "ArcheAge Chronicles",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1789535623",
+    "short_description": "Erkunde Auroria, eine weitläufige und lebendige Welt voller Geschichte und aufregender Action. ArcheAge Chronicles bietet ein fesselndes Erlebnis, das die Herzen neuer Spieler und erfahrener Abenteurer gleichermaßen erobern wird.",
+    "developers": [
+      "XLGAMES"
+    ],
+    "publishers": [
+      "XLGAMES"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "MMO",
+      "Rollenspiel"
+    ],
+    "release_date": "Bevorstehende Ankündigung",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/3218230/"
+  },
+  {
+    "appid": 2320980,
+    "name": "Loftia",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790069209",
+    "short_description": "Willkommen in Loftia, einer gemütlichen Multiplayer-Welt, in der du auf eine bessere und nachhaltigere Zukunft hinarbeitest! Verbringe Zeit mit alten und neuen Freunden: Widmet euch der Landwirtschaft, bastelt, erkundet, dekoriert und bewirkt gemeinsam etwas Bedeutsames.",
+    "developers": [
+      "Qloud Games"
+    ],
+    "publishers": [
+      "Qloud Games"
+    ],
+    "genres": [
+      "Abenteuer",
+      "Gelegenheitsspiele",
+      "Indie",
+      "MMO",
+      "Rollenspiel",
+      "Simulationen"
+    ],
+    "release_date": "3. Nov. 2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/2320980/"
+  },
+  {
+    "appid": 3393110,
+    "name": "AION 2",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/8ba6511e1889fd45561956e603d04fac1a89645e/header.jpg?t=1789780043",
+    "short_description": "AION 2 ist das einzige MMORPG, das den Himmel selbst zum Schlachtfeld macht. Wähle deine Fraktion, steige als Daeva auf und kämpfe im Fraktionskrieg in einer Welt, die 36-mal größer ist als im Vorgänger. Entwickelt mit Unreal Engine 5 – exklusiv für PC.",
+    "developers": [
+      "NC"
+    ],
+    "publishers": [
+      "NC"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "MMO",
+      "Rollenspiel",
+      "Kostenlos spielbar"
+    ],
+    "release_date": "5. Okt. 2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/3393110/"
+  },
+  {
+    "appid": 5123770,
+    "name": "伊始之猫",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5123770/3c79a2df7cf32a5a36472a6ca900a59cc570fc7b/header.jpg?t=1787625074",
+    "short_description": "Ylem’s Cat is an action-adventure game driven by the bond between a girl and her cat. Led by curiosity and knowledge, Molly sets out on a journey to find her missing mother across a dying planet, exploring ruins and uncovering the truth buried within the giants.",
+    "developers": [
+      "钻石猫"
+    ],
+    "publishers": [
+      "钻石猫"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer"
+    ],
+    "release_date": "Bald verfügbar",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/5123770/"
+  },
+  {
+    "appid": 3714800,
+    "name": "Warlock: Dungeons & Dragons",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714800/490d2a85ec645883df3a1f930c37f3b26e630a26/header.jpg?t=1787767629",
+    "short_description": "Verkörpere Kaatri in Warlock, einem Einzelspieler-Action-Adventure in Third Person mit einer von Dungeons &amp; Dragons inspirierten offenen Welt. Brich die Regeln mit verbotener Magie. In Erkundung wie Kampf stellt jede Herausforderung deine Kreativität, Vorbereitung und Cleverness auf die Probe.",
+    "developers": [
+      "Invoke Studios"
+    ],
+    "publishers": [
+      "Wizards of the Coast"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer"
+    ],
+    "release_date": "2027",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/3714800/"
+  },
+  {
+    "appid": 1728620,
+    "name": "IKUMA - The Frozen Compass",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1728620/header.jpg?t=1769174404",
+    "short_description": "Begib dich auf eine fesselnde Reise in die Kälte – allein oder mit einem Freund. IKUMA erzählt die Geschichte von Sam, einem Teenager, der mit seinem Hund in der Arktis strandet. Doch neben der eisigen Wildnis lauert noch etwas im Schatten. Wirst du einen Weg durch die Dunkelheit finden?",
+    "developers": [
+      "Mooneye Studios"
+    ],
+    "publishers": [
+      "Mooneye Studios"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Indie"
+    ],
+    "release_date": "2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/1728620/"
+  },
+  {
+    "appid": 2315050,
+    "name": "We Were Here Tomorrow",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/be9a627b8e0b7b0130885f369c2963e5a912753a/header_alt_assets_2.jpg?t=1789921298",
+    "short_description": "Du und dein Partner erwacht in einer geheimnisvollen Einrichtung von Norček und wisst nicht mehr, wie ihr dorthin gekommen seid. Kommuniziert, kooperiert und enthüllt die Geheimnisse dieses asymmetrischen Koop-Abenteuers. Nur gemeinsam könnt ihr das Schicksal von morgen beeinflussen ...",
+    "developers": [
+      "Total Mayhem Games"
+    ],
+    "publishers": [
+      "Total Mayhem Games"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Gelegenheitsspiele",
+      "Indie",
+      "Kostenlos spielbar"
+    ],
+    "release_date": "20. Okt. 2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/2315050/"
+  },
+  {
+    "appid": 3161310,
+    "name": "Hela: of Mice & Magic",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1790178457",
+    "short_description": "Entdecke die Welt durch die Augen einer mutigen Maus in diesem bezaubernden 3D-Abenteuer. Erkunde atemberaubende, skandinavisch inspirierte Landschaften, löse Rätsel und kämpfe für das Gute in einem Land, in dem herzerwärmende Geschichten und die Schönheit der Natur miteinander verwoben sind.",
+    "developers": [
+      "Windup"
+    ],
+    "publishers": [
+      "Knights Peak",
+      "Boltray Games (China)"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer"
+    ],
+    "release_date": "1. Dez. 2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/3161310/"
+  },
+  {
+    "appid": 3260750,
+    "name": "Stage Fright",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3260750/header.jpg?t=1788970696",
+    "short_description": "Von den Machern von OVERCOOKED! kommt ein brandneues kooperatives Erlebnis. Nimm einen Freund mit auf ein fantastisches Abenteuer, während ihr gemeinsam erkundet, Escape Rooms löst, tückische Hindernisse überwindet und ein uraltes Mysterium enträtselt.",
+    "developers": [
+      "Ghost Town Games Ltd."
+    ],
+    "publishers": [
+      "Hello Games"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer"
+    ],
+    "release_date": "Bevorstehende Ankündigung",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/3260750/"
+  },
+  {
+    "appid": 4849240,
+    "name": "Duel: The Game Show",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/750c0d9fbfa9b366f39b37615cb314dd5f5bd3fd/header.jpg?t=1789417365",
+    "short_description": "Das ultimative 1-gegen-1-Quizspiel! Fordere deine Freunde in bis zu 15 Runden heraus. Meistere 30 abwechslungsreiche Minispiele, die dein Wissen, dein Rätselvermögen, deine Logik, dein Gedächtnis und deine Schnelligkeit auf die Probe stellen. Wer behält die Nerven und holt sich den ultimativen Sieg?",
+    "developers": [
+      "Main Stage Games"
+    ],
+    "publishers": [
+      "Main Stage Games"
+    ],
+    "genres": [
+      "Gelegenheitsspiele"
+    ],
+    "release_date": "27. Okt. 2026",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/4849240/"
+  },
+  {
+    "appid": 4997000,
+    "name": "Bloomwalker",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4997000/331975773c8aa08f2b47a39630a625d6d3e20443/header.jpg?t=1790062453",
+    "short_description": "Reise mit einem wandelnden Haus umher und stelle in diesem Herstellungsabenteuer eine verdorbene Welt wieder her. Gestalte deine eigene kleine Welt hinter der Tür und hauche einer gefallenen Welt gemeinsam mit den vielseitigen Vertrauten und den Geistern, den Gnuffi, neues Leben ein.",
+    "developers": [
+      "Netmarble Neo"
+    ],
+    "publishers": [
+      "Netmarble"
+    ],
+    "genres": [
+      "Abenteuer"
+    ],
+    "release_date": "Bevorstehende Ankündigung",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/4997000/"
+  },
+  {
+    "appid": 4096780,
+    "name": "The Missing Tail",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4096780/54734143a7d48b8ba6d825d402ecefb7d2fdde4d/header.jpg?t=1789141296",
+    "short_description": "The Missing Tail ist ein gemütliches Koop-Abenteuer, in dem du zwei Katzen spielst, die einen lebendigen mittelalterlichen Innenhof und ein Schloss erkunden.",
+    "developers": [
+      "Estoty LLC"
+    ],
+    "publishers": [
+      "Estoty LLC"
+    ],
+    "genres": [
+      "Abenteuer"
+    ],
+    "release_date": "Bevorstehende Ankündigung",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/4096780/"
   }
 ]
