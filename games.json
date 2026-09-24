@@ -1,10 +1,18 @@
 [
   {
     "title": "Cat Parents",
-    "url": "https://store.steampowered.com/app/4328440/Cat_Parents/",
+    "url": "https://steampowered.com",
     "isReleaseSoon": true,
     "price": "Bald verfügbar",
     "discountPercent": 0,
     "tags": ["Co-op", "Simulation", "Katzen", "Cozy"]
+  },
+  {
+    "title": "Grounded 2",
+    "url": "https://store.steampowered.com/app/2661300/Grounded_2/",
+    "isReleaseSoon": false,
+    "price": "29,99€",
+    "discountPercent": 0,
+    "tags": ["Survival", "Multiplayer", "Co-op", "Open World"]
   }
 ]
