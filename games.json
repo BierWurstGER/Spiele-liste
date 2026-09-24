@@ -2,6 +2,10 @@
   {
     "title": "Cat Parents",
     "steamId": "4328440",
-    "url": "https://store.steampowered.com/app/4328440/Cat_Parents/"
+    "url": "https://steampowered.com",
+    "isReleaseSoon": true,
+    "price": "Bald verfügbar",
+    "discountPercent": 0,
+    "tags": ["Co-op", "Simulation", "Katzen", "Cozy"]
   }
 ]
