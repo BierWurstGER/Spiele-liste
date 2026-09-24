@@ -35,11 +35,15 @@ jobs:
 
           result = []
 
+          print(f"Gefundene AppIDs: {len(games)}")
+          print("=" * 60)
+
           for entry in games:
               appid = entry["appid"]
 
+              print()
               print(f"Lade Steam-Daten für AppID {appid}...")
-
+              
               url = (
                   "https://store.steampowered.com/api/appdetails"
                   f"?appids={appid}&l=german"
@@ -53,52 +57,101 @@ jobs:
                       }
                   )
 
-                  with urllib.request.urlopen(request, timeout=30) as response:
-                      data = json.loads(response.read().decode("utf-8"))
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=30
+                  ) as response:
+                      raw_data = response.read().decode("utf-8")
+                      data = json.loads(raw_data)
 
                   app = data.get(str(appid))
 
-                  if app and app.get("success"):
-                      game = app["data"]
+                  if not app:
+                      print(f"FEHLER: Keine Antwort für AppID {appid}")
+                      print(f"Steam-Antwort: {data}")
+                      continue
 
-                      result.append({
-                          "appid": appid,
-                          "name": game.get("name"),
-                          "type": game.get("type"),
-                          "header_image": game.get("header_image"),
-                          "short_description": game.get("short_description"),
-                          "developers": game.get("developers", []),
-                          "publishers": game.get("publishers", []),
-                          "genres": [
-                              genre["description"]
-                              for genre in game.get("genres", [])
-                          ],
-                          "release_date": game.get(
-                              "release_date", {}
-                          ).get("date"),
+                  if not app.get("success"):
+                      print(f"FEHLER: Steam meldet success=false für AppID {appid}")
+                      print(f"Steam-Antwort: {app}")
+                      continue
 
-                          "price": {
-                              "original": game.get("price_overview", {}).get("initial_formatted"),
-                              "current": game.get("price_overview", {}).get("final_formatted"),
-                              "discount_percent": game.get("price_overview", {}).get("discount_percent", 0)
-                          } if game.get("price_overview") else None,
-                          
-                          "steam_url":
-                              f"https://store.steampowered.com/app/{appid}/"
-                      })
+                  game = app["data"]
 
-                      print(f"OK: {game.get('name')}")
+                  print(f"OK: {game.get('name')}")
 
+                  price_overview = game.get("price_overview")
+
+                  if price_overview:
+                      print(
+                          f"Preis: "
+                          f"{price_overview.get('final_formatted')} "
+                          f"(Rabatt: "
+                          f"{price_overview.get('discount_percent', 0)}%)"
+                      )
                   else:
-                      print(f"FEHLER: AppID {appid} nicht gefunden")
+                      print("Preis: nicht verfügbar")
+
+                  result.append({
+                      "appid": appid,
+                      "name": game.get("name"),
+                      "type": game.get("type"),
+                      "header_image": game.get("header_image"),
+                      "short_description": game.get("short_description"),
+                      "developers": game.get("developers", []),
+                      "publishers": game.get("publishers", []),
+                      "genres": [
+                          genre["description"]
+                          for genre in game.get("genres", [])
+                      ],
+                      "release_date": game.get(
+                          "release_date", {}
+                      ).get("date"),
+
+                      "price": {
+                          "original": price_overview.get(
+                              "initial_formatted"
+                          ),
+                          "current": price_overview.get(
+                              "final_formatted"
+                          ),
+                          "discount_percent": price_overview.get(
+                              "discount_percent",
+                              0
+                          )
+                      } if price_overview else None,
+
+                      "steam_url":
+                          f"https://store.steampowered.com/app/{appid}/"
+                  })
 
               except Exception as e:
-                  print(f"FEHLER bei {appid}: {e}")
+                  print(
+                      f"FEHLER bei AppID {appid}: "
+                      f"{type(e).__name__}: {e}"
+                  )
 
-              # Kleine Pause zwischen Anfragen
               time.sleep(1)
 
-          with open("games-data.json", "w", encoding="utf-8") as f:
+          print()
+          print("=" * 60)
+          print(
+              f"Erfolgreich geladen: "
+              f"{len(result)} von {len(games)} Spielen"
+          )
+
+          if len(result) != len(games):
+              print(
+                  f"FEHLER: "
+                  f"{len(games) - len(result)} Spiele konnten "
+                  f"nicht geladen werden."
+              )
+
+          with open(
+              "games-data.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
               json.dump(
                   result,
                   f,
@@ -106,7 +159,7 @@ jobs:
                   indent=2
               )
 
-          print(f"{len(result)} Spiele gespeichert.")
+          print("games-data.json wurde erstellt.")
           PY
 
       - name: Änderungen speichern
