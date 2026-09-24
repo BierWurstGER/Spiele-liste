@@ -1,20 +1,4 @@
 [
-  {
-    "title": "Cat Parents",
-    "price": "Bald verfügbar",
-    "isSale": false,
-    "url": "https://steamdb.info/app/4328440/"
-  },
-  {
-    "title": "Grounded 2",
-    "price": "29,99€ (Normalpreis)",
-    "isSale": false,
-    "url": "https://steamdb.info/app/2661300/"
-  },
-  {
-    "title": "Moss: The Forgotten Relic",
-    "price": "18,99€",
-    "isSale": false,
-    "url": "https://steamdb.info/app/3914860/"
-  }
+  { "steamId": "4328440" },
+  { "steamId": "2661300" }
 ]
