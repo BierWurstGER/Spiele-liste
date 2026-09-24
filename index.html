@@ -71,7 +71,7 @@
             display: none;
         }
 
-        /* Webseiten-Inhalt (Standardmäßig versteckt) */
+        /* Webseiten-Inhalt */
         #content {
             display: none;
             width: 100%;
@@ -134,6 +134,10 @@
             font-size: 0.9rem;
             font-weight: bold;
             border: 1px solid #3d4450;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        }
+        .steam-btn:hover {
+            background-color: #2a313c;
         }
     </style>
 </head>
@@ -154,23 +158,18 @@
         <p class="subtitle">Spiele, die wir zusammen zocken müssen</p>
 
         <div class="grid">
-            <!-- Beispiel Spiel 1 -->
+            
+            <!-- SPIEL 1: Cat Parents -->
             <div class="card">
-                <img src="https://unsplash.com" alt="Spiel Cover">
+                <img src="https://unsplash.com" alt="Cat Parents Cover">
                 <div class="card-content">
-                    <h3 class="card-title">Beispiel Spiel 1 (Co-Op)</h3>
-                    <a href="https://steampowered.com" target="_blank" class="steam-btn">➔ Auf Steam ansehen</a>
+                    <h3 class="card-title">Cat Parents</h3>
+                    <a href="https://store.steampowered.com/app/4328440/Cat_Parents/" target="_blank" class="steam-btn">➔ Auf Steam ansehen</a>
                 </div>
             </div>
 
-            <!-- Beispiel Spiel 2 -->
-            <div class="card">
-                <img src="https://unsplash.com" alt="Spiel Cover">
-                <div class="card-content">
-                    <h3 class="card-title">Beispiel Spiel 2</h3>
-                    <a href="https://steampowered.com" target="_blank" class="steam-btn">➔ Auf Steam ansehen</a>
-                </div>
-            </div>
+            <!-- Hier kannst du beim nächsten Mal das zweite Spiel einfügen... -->
+
         </div>
     </div>
 
@@ -182,19 +181,16 @@
             const content = document.getElementById('content');
             const errorMsg = document.getElementById('error-msg');
 
-            // HIER KANST DU DEIN WUNSCH-PASSWORT ÄNDERN (Aktuell: "gaming")
+            // HIER KANNST DU DEIN WUNSCH-PASSWORT ÄNDERN (Aktuell: "gaming")
             if (input === "gaming") {
-                // Login erfolgreich
-                loginContainer.style.display = "none"; // Login-Box ausblenden
-                content.style.display = "flex";       // Liste einblenden
-                document.body.style.justifyContent = "flex-start"; // Layout anpassen
+                loginContainer.style.display = "none";
+                content.style.display = "flex";
+                document.body.style.justifyContent = "flex-start";
             } else {
-                // Falsches Passwort
                 errorMsg.style.display = "block";
             }
         }
 
-        // Erlaubt das Abschicken mit der Enter-Taste
         document.getElementById('password-input').addEventListener('keypress', function (e) {
             if (e.key === 'Enter') {
                 checkPassword();
