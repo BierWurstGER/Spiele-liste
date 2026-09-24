@@ -35,6 +35,7 @@ jobs:
 
           result = []
 
+          print("=" * 60)
           print(f"Gefundene AppIDs: {len(games)}")
           print("=" * 60)
 
@@ -42,18 +43,27 @@ jobs:
               appid = entry["appid"]
 
               print()
-              print(f"Lade Steam-Daten für AppID {appid}...")
-              
+              print("-" * 60)
+              print(f"Angefragt: {appid}")
+
               url = (
                   "https://store.steampowered.com/api/appdetails"
-                  f"?appids={appid}&l=german&random=12345"
+                  f"?appids={appid}&cc=de&l=german"
               )
 
               try:
                   request = urllib.request.Request(
                       url,
                       headers={
-                          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+                          "User-Agent": (
+                              "Mozilla/5.0 "
+                              "(Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 "
+                              "(KHTML, like Gecko) "
+                              "Chrome/131.0 Safari/537.36"
+                          ),
+                          "Accept": "application/json,text/plain,*/*",
+                          "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"
                       }
                   )
 
@@ -62,46 +72,102 @@ jobs:
                       timeout=30
                   ) as response:
                       raw_data = response.read().decode("utf-8")
-                      data = json.loads(raw_data)
+
+                  data = json.loads(raw_data)
+
+                  print(f"Steam-Antwort-Schlüssel: {list(data.keys())}")
 
                   app = data.get(str(appid))
 
                   if not app:
-                      print(f"FEHLER: Keine Antwort für AppID {appid}")
-                      print(f"Steam-Antwort: {data}")
+                      print(
+                          f"FEHLER: Kein direkter Eintrag "
+                          f"für AppID {appid}"
+                      )
+
+                      print("Suche nach steam_appid...")
+
+                      for key, candidate in data.items():
+                          if not isinstance(candidate, dict):
+                              continue
+
+                          candidate_data = candidate.get("data")
+
+                          if not isinstance(candidate_data, dict):
+                              continue
+
+                          steam_appid = candidate_data.get("steam_appid")
+
+                          print(
+                              f"  Schlüssel {key} "
+                              f"-> steam_appid: {steam_appid}"
+                          )
+
+                          if steam_appid == appid:
+                              app = candidate
+                              print(
+                                  f"Treffer gefunden unter Schlüssel {key}"
+                              )
+                              break
+
+                  if not app:
+                      print(
+                          f"FEHLER: Keine passenden Steam-Daten "
+                          f"für {appid}"
+                      )
                       continue
 
                   if not app.get("success"):
-                      print(f"FEHLER: Steam meldet success=false für AppID {appid}")
-                      print(f"Steam-Antwort: {app}")
+                      print(
+                          f"FEHLER: Steam meldet success=false "
+                          f"für {appid}"
+                      )
                       continue
 
-                  game = app["data"]
+                  game = app.get("data")
 
-                  print(f"OK: {game.get('name')}")
+                  if not isinstance(game, dict):
+                      print("FEHLER: Keine gültigen Spieldaten")
+                      continue
+
+                  steam_appid = game.get("steam_appid")
+                  name = game.get("name")
+
+                  print(f"Steam AppID: {steam_appid}")
+                  print(f"Name: {name}")
+
+                  if steam_appid != appid:
+                      print(
+                          "WARNUNG: Die Steam AppID stimmt "
+                          "nicht mit der angefragten AppID überein!"
+                      )
 
                   price_overview = game.get("price_overview")
 
                   if price_overview:
                       print(
                           f"Preis: "
-                          f"{price_overview.get('final_formatted')} "
-                          f"(Rabatt: "
-                          f"{price_overview.get('discount_percent', 0)}%)"
+                          f"{price_overview.get('final_formatted')}"
+                      )
+                      print(
+                          f"Rabatt: "
+                          f"{price_overview.get('discount_percent', 0)}%"
                       )
                   else:
                       print("Preis: nicht verfügbar")
 
                   result.append({
                       "appid": appid,
-                      "name": game.get("name"),
+                      "name": name,
                       "type": game.get("type"),
                       "header_image": game.get("header_image"),
-                      "short_description": game.get("short_description"),
+                      "short_description": game.get(
+                          "short_description"
+                      ),
                       "developers": game.get("developers", []),
                       "publishers": game.get("publishers", []),
                       "genres": [
-                          genre["description"]
+                          genre.get("description")
                           for genre in game.get("genres", [])
                       ],
                       "release_date": game.get(
@@ -116,8 +182,7 @@ jobs:
                               "final_formatted"
                           ),
                           "discount_percent": price_overview.get(
-                              "discount_percent",
-                              0
+                              "discount_percent", 0
                           )
                       } if price_overview else None,
 
@@ -131,7 +196,7 @@ jobs:
                       f"{type(e).__name__}: {e}"
                   )
 
-              time.sleep(1)
+              time.sleep(2)
 
           print()
           print("=" * 60)
@@ -139,13 +204,7 @@ jobs:
               f"Erfolgreich geladen: "
               f"{len(result)} von {len(games)} Spielen"
           )
-
-          if len(result) != len(games):
-              print(
-                  f"FEHLER: "
-                  f"{len(games) - len(result)} Spiele konnten "
-                  f"nicht geladen werden."
-              )
+          print("=" * 60)
 
           with open(
               "games-data.json",
