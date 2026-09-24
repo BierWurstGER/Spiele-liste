@@ -1,81 +1,5 @@
 [
   {
-    "appid": 2661300,
-    "name": "Grounded 2",
-    "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/b52405d3dd3d4bfd356cd9af7b399bcbc5a23f7e/header.jpg?t=1787010637",
-    "short_description": "Vor zwei Jahren wurdest du auf die Größe einer Ameise geschrumpft – und jetzt passiert es schon wieder, aber diesmal ist es anders.",
-    "developers": [
-      "Obsidian Entertainment",
-      "Eidos-Montréal"
-    ],
-    "publishers": [
-      "Xbox Game Studios"
-    ],
-    "genres": [
-      "Action",
-      "Abenteuer",
-      "Early Access"
-    ],
-    "release_date": "29. Jul. 2025",
-    "price": {
-      "original": "",
-      "current": "$29.99",
-      "discount_percent": 0
-    },
-    "steam_url": "https://store.steampowered.com/app/2661300/"
-  },
-  {
-    "appid": 2111550,
-    "name": "Schrodinger's Cat Burglar",
-    "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1788909787",
-    "short_description": "Portal mit Katzen – stürz dich mit allen vier Pfoten in ein quantenverschränkten Rätselabenteuer! Mieze erhält die unglaubliche Fähigkeit, an zwei Orten gleichzeitig zu sein. Erkunde tückische Testkammern, treibe Unfug und entkomme um Schnurrhaaresbreite der Gefangennahme! 🐈🐈‍⬛",
-    "developers": [
-      "Abandoned Sheep"
-    ],
-    "publishers": [
-      "Abandoned Sheep"
-    ],
-    "genres": [
-      "Abenteuer",
-      "Indie"
-    ],
-    "release_date": "21. Mai 2026",
-    "price": {
-      "original": "",
-      "current": "$19.99",
-      "discount_percent": 0
-    },
-    "steam_url": "https://store.steampowered.com/app/2111550/"
-  },
-  {
-    "appid": 3914860,
-    "name": "Moss: The Forgotten Relic ",
-    "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg?t=1788539047",
-    "short_description": "Ein emotionales, atmosphärisches Abenteuer, das auf den Seiten eines lebendigen Bilderbuchs stattfindet, in dem es von Mythen und uralter Magie nur so wimmelt. Begleite eine winzige, aber entschlossene Heldin auf einer beherzten Reise voller Herausforderungen, Tapferkeit und Zusammenhänge.",
-    "developers": [
-      "Polyarc",
-      "Blackbird Interactive"
-    ],
-    "publishers": [
-      "Polyarc"
-    ],
-    "genres": [
-      "Action",
-      "Abenteuer",
-      "Indie"
-    ],
-    "release_date": "16. Jul. 2026",
-    "price": {
-      "original": "",
-      "current": "$19.99",
-      "discount_percent": 0
-    },
-    "steam_url": "https://store.steampowered.com/app/3914860/"
-  },
-  {
     "appid": 2197890,
     "name": "Paranormal Cleanup",
     "type": "game",
@@ -101,30 +25,6 @@
     "steam_url": "https://store.steampowered.com/app/2197890/"
   },
   {
-    "appid": 4656000,
-    "name": "BOMBANANA!",
-    "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1789738286",
-    "short_description": "Chaos &amp; Spaß beim Bombenentschärfen mit deinen affigen Freunden! In diesem 3-Spieler-Koop spielt ihr blinde, taube und stumme Affen, die nur einen Teil der Infos haben, die ihr braucht. Kommuniziert, löst Rätsel als Team und beeilt euch: Könnt ihr die Bombe entschärfen, bevor sie explodiert?",
-    "developers": [
-      "Lefto Studio"
-    ],
-    "publishers": [
-      "TARK"
-    ],
-    "genres": [
-      "Gelegenheitsspiele",
-      "Indie"
-    ],
-    "release_date": "2. Sep. 2026",
-    "price": {
-      "original": "",
-      "current": "$7.99",
-      "discount_percent": 0
-    },
-    "steam_url": "https://store.steampowered.com/app/4656000/"
-  },
-  {
     "appid": 4704690,
     "name": "MECCHA CHAMELEON",
     "type": "game",
@@ -146,30 +46,5 @@
       "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4704690/"
-  },
-  {
-    "appid": 4380490,
-    "name": "Cat Mail Co.",
-    "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1789733916",
-    "short_description": "Halte ein gemütliches Katzenpostamt am Laufen. Hole Päckchen vom Boot, sortiere sie, stelle sie zu und ordne alles so, wie du willst. Nachts offenbart der Mond verborgenes Wissen über die Pakete. Beseitige den mysteriösen Berg von Paketen und schalte neue Fähigkeiten und Zielorte frei.",
-    "developers": [
-      "Maracas Studio"
-    ],
-    "publishers": [
-      "Maracas Studio",
-      "Gamersky Games"
-    ],
-    "genres": [
-      "Indie",
-      "Simulationen"
-    ],
-    "release_date": "9. Jul. 2026",
-    "price": {
-      "original": "",
-      "current": "$14.99",
-      "discount_percent": 0
-    },
-    "steam_url": "https://store.steampowered.com/app/4380490/"
   }
 ]
