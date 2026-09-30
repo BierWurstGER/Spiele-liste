@@ -125,7 +125,7 @@
     "appid": 4656000,
     "name": "BOMBANANA!",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1789738286",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1790377390",
     "short_description": "Chaos &amp; Spaß beim Bombenentschärfen mit deinen affigen Freunden! In diesem 3-Spieler-Koop spielt ihr blinde, taube und stumme Affen, die nur einen Teil der Infos haben, die ihr braucht. Kommuniziert, löst Rätsel als Team und beeilt euch: Könnt ihr die Bombe entschärfen, bevor sie explodiert?",
     "developers": [
       "Lefto Studio"
@@ -172,7 +172,7 @@
     "appid": 4380490,
     "name": "Cat Mail Co.",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1789733916",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1790596384",
     "short_description": "Halte ein gemütliches Katzenpostamt am Laufen. Hole Päckchen vom Boot, sortiere sie, stelle sie zu und ordne alles so, wie du willst. Nachts offenbart der Mond verborgenes Wissen über die Pakete. Beseitige den mysteriösen Berg von Paketen und schalte neue Fähigkeiten und Zielorte frei.",
     "developers": [
       "Maracas Studio"
@@ -219,7 +219,7 @@
     "appid": 2320980,
     "name": "Loftia",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790069209",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790424147",
     "short_description": "Willkommen in Loftia, einer gemütlichen Multiplayer-Welt, in der du auf eine bessere und nachhaltigere Zukunft hinarbeitest! Verbringe Zeit mit alten und neuen Freunden: Widmet euch der Landwirtschaft, bastelt, erkundet, dekoriert und bewirkt gemeinsam etwas Bedeutsames.",
     "developers": [
       "Qloud Games"
@@ -233,7 +233,8 @@
       "Indie",
       "MMO",
       "Rollenspiel",
-      "Simulationen"
+      "Simulationen",
+      "Early Access"
     ],
     "release_date": "3. Nov. 2026",
     "price": null,
@@ -243,7 +244,7 @@
     "appid": 3393110,
     "name": "AION 2",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/8ba6511e1889fd45561956e603d04fac1a89645e/header.jpg?t=1789780043",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1790776830",
     "short_description": "AION 2 ist das einzige MMORPG, das den Himmel selbst zum Schlachtfeld macht. Wähle deine Fraktion, steige als Daeva auf und kämpfe im Fraktionskrieg in einer Welt, die 36-mal größer ist als im Vorgänger. Entwickelt mit Unreal Engine 5 – exklusiv für PC.",
     "developers": [
       "NC"
@@ -327,7 +328,7 @@
     "appid": 2315050,
     "name": "We Were Here Tomorrow",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/be9a627b8e0b7b0130885f369c2963e5a912753a/header_alt_assets_2.jpg?t=1789921298",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/be9a627b8e0b7b0130885f369c2963e5a912753a/header_alt_assets_2.jpg?t=1790675025",
     "short_description": "Du und dein Partner erwacht in einer geheimnisvollen Einrichtung von Norček und wisst nicht mehr, wie ihr dorthin gekommen seid. Kommuniziert, kooperiert und enthüllt die Geheimnisse dieses asymmetrischen Koop-Abenteuers. Nur gemeinsam könnt ihr das Schicksal von morgen beeinflussen ...",
     "developers": [
       "Total Mayhem Games"
@@ -350,14 +351,15 @@
     "appid": 3161310,
     "name": "Hela: of Mice & Magic",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1790178457",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1790616093",
     "short_description": "Entdecke die Welt durch die Augen einer mutigen Maus in diesem bezaubernden 3D-Abenteuer. Erkunde atemberaubende, skandinavisch inspirierte Landschaften, löse Rätsel und kämpfe für das Gute in einem Land, in dem herzerwärmende Geschichten und die Schönheit der Natur miteinander verwoben sind.",
     "developers": [
       "Windup"
     ],
     "publishers": [
       "Knights Peak",
-      "Boltray Games (China)"
+      "Boltray Games (China)",
+      " Shochiku"
     ],
     "genres": [
       "Action",
@@ -443,5 +445,58 @@
     "release_date": "Bevorstehende Ankündigung",
     "price": null,
     "steam_url": "https://store.steampowered.com/app/4096780/"
+  },
+  {
+    "appid": 2209900,
+    "name": "Moonlight Peaks",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/9a9b199531ec49be95ea2d34e67dfab47106584b/header.jpg?t=1790728927",
+    "short_description": "Baue mystische Feldfrüchte an, lerne Zaubersprüche, stelle Tränke her und schließe Freundschaften – oder mehr – mit den örtlichen Werwölfen, Hexen und Meerjungfrauen in dieser herzerwärmenden, übernatürlichen Lebenssimulation. Die Ewigkeit erwartet dich!",
+    "developers": [
+      "Little Chicken"
+    ],
+    "publishers": [
+      "XSEED Games",
+      "Marvelous Europe"
+    ],
+    "genres": [
+      "Gelegenheitsspiele",
+      "Indie",
+      "Rollenspiel",
+      "Simulationen"
+    ],
+    "release_date": "6. Jul. 2026",
+    "price": {
+      "original": "",
+      "current": "34,99€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/2209900/"
+  },
+  {
+    "appid": 513710,
+    "name": "SCUM",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1787679410",
+    "short_description": "Willkommen bei SCUM, einem Open-World-Survival-Spiel, in dem du deinen Charakter nach deinen Vorstellungen erstellen kannst. Plündere, stelle her, jage, baue und kämpfe auf einer feindseligen Insel. Bleib am Leben. Bleib gefährlich. Mach es deinen Gegnern schwer, dich zu töten.",
+    "developers": [
+      "Gamepires"
+    ],
+    "publishers": [
+      "Gamepires"
+    ],
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Indie",
+      "MMO"
+    ],
+    "release_date": "17. Jun. 2025",
+    "price": {
+      "original": "",
+      "current": "44,99€",
+      "discount_percent": 0
+    },
+    "steam_url": "https://store.steampowered.com/app/513710/"
   }
 ]
