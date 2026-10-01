@@ -40,9 +40,9 @@
     ],
     "release_date": "29. Jul. 2025",
     "price": {
-      "original": "",
-      "current": "29,99€",
-      "discount_percent": 0
+      "original": "29,99€",
+      "current": "26,99€",
+      "discount_percent": 10
     },
     "steam_url": "https://store.steampowered.com/app/2661300/"
   },
@@ -64,9 +64,9 @@
     ],
     "release_date": "21. Mai 2026",
     "price": {
-      "original": "",
-      "current": "20,49€",
-      "discount_percent": 0
+      "original": "20,49€",
+      "current": "16,39€",
+      "discount_percent": 20
     },
     "steam_url": "https://store.steampowered.com/app/2111550/"
   },
@@ -90,9 +90,9 @@
     ],
     "release_date": "16. Jul. 2026",
     "price": {
-      "original": "",
-      "current": "18,99€",
-      "discount_percent": 0
+      "original": "18,99€",
+      "current": "15,19€",
+      "discount_percent": 20
     },
     "steam_url": "https://store.steampowered.com/app/3914860/"
   },
@@ -115,9 +115,9 @@
     ],
     "release_date": "30. Mai 2025",
     "price": {
-      "original": "",
-      "current": "9,75€",
-      "discount_percent": 0
+      "original": "9,75€",
+      "current": "4,87€",
+      "discount_percent": 50
     },
     "steam_url": "https://store.steampowered.com/app/2197890/"
   },
@@ -162,9 +162,9 @@
     ],
     "release_date": "9. Jun. 2026",
     "price": {
-      "original": "",
-      "current": "6,15€",
-      "discount_percent": 0
+      "original": "6,15€",
+      "current": "4,30€",
+      "discount_percent": 30
     },
     "steam_url": "https://store.steampowered.com/app/4704690/"
   },
@@ -187,9 +187,9 @@
     ],
     "release_date": "9. Jul. 2026",
     "price": {
-      "original": "",
-      "current": "14,99€",
-      "discount_percent": 0
+      "original": "14,99€",
+      "current": "11,99€",
+      "discount_percent": 20
     },
     "steam_url": "https://store.steampowered.com/app/4380490/"
   },
@@ -219,7 +219,7 @@
     "appid": 2320980,
     "name": "Loftia",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790424147",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790802676",
     "short_description": "Willkommen in Loftia, einer gemütlichen Multiplayer-Welt, in der du auf eine bessere und nachhaltigere Zukunft hinarbeitest! Verbringe Zeit mit alten und neuen Freunden: Widmet euch der Landwirtschaft, bastelt, erkundet, dekoriert und bewirkt gemeinsam etwas Bedeutsames.",
     "developers": [
       "Qloud Games"
@@ -244,7 +244,7 @@
     "appid": 3393110,
     "name": "AION 2",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1790776830",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1790806400",
     "short_description": "AION 2 ist das einzige MMORPG, das den Himmel selbst zum Schlachtfeld macht. Wähle deine Fraktion, steige als Daeva auf und kämpfe im Fraktionskrieg in einer Welt, die 36-mal größer ist als im Vorgänger. Entwickelt mit Unreal Engine 5 – exklusiv für PC.",
     "developers": [
       "NC"
@@ -467,9 +467,9 @@
     ],
     "release_date": "6. Jul. 2026",
     "price": {
-      "original": "",
-      "current": "34,99€",
-      "discount_percent": 0
+      "original": "34,99€",
+      "current": "29,74€",
+      "discount_percent": 15
     },
     "steam_url": "https://store.steampowered.com/app/2209900/"
   },
@@ -493,9 +493,9 @@
     ],
     "release_date": "17. Jun. 2025",
     "price": {
-      "original": "",
-      "current": "44,99€",
-      "discount_percent": 0
+      "original": "44,99€",
+      "current": "17,99€",
+      "discount_percent": 60
     },
     "steam_url": "https://store.steampowered.com/app/513710/"
   },
@@ -520,9 +520,9 @@
     ],
     "release_date": "23. Okt. 2025",
     "price": {
-      "original": "",
-      "current": "12,95€",
-      "discount_percent": 0
+      "original": "12,95€",
+      "current": "9,06€",
+      "discount_percent": 30
     },
     "steam_url": "https://store.steampowered.com/app/2119830/"
   },
@@ -545,9 +545,9 @@
     ],
     "release_date": "7. Aug. 2026",
     "price": {
-      "original": "",
-      "current": "9,99€",
-      "discount_percent": 0
+      "original": "9,99€",
+      "current": "8,49€",
+      "discount_percent": 15
     },
     "steam_url": "https://store.steampowered.com/app/4450620/"
   },
@@ -555,7 +555,7 @@
     "appid": 4108000,
     "name": "Machine Party",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1786561627",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1790860377",
     "short_description": "Machine Party ist eine Sammlung brutaler Partyspiele, bei denen ein Scheitern tödlich endet. Trommle deine Freunde zusammen und stelle dich lebensgefährlichen Situationen, um zu beweisen, dass dein Leben mehr wert ist als das der anderen. Überleben ist unwahrscheinlich.",
     "developers": [
       "Mike Klubnika",
@@ -570,9 +570,9 @@
     ],
     "release_date": "30. Jul. 2026",
     "price": {
-      "original": "",
-      "current": "7,49€",
-      "discount_percent": 0
+      "original": "7,49€",
+      "current": "5,99€",
+      "discount_percent": 20
     },
     "steam_url": "https://store.steampowered.com/app/4108000/"
   },
