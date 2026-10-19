@@ -40,9 +40,9 @@
     ],
     "release_date": "29. Jul. 2025",
     "price": {
-      "original": "29,99€",
-      "current": "26,99€",
-      "discount_percent": 10
+      "original": "",
+      "current": "29,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2661300/"
   },
@@ -50,7 +50,7 @@
     "appid": 2111550,
     "name": "Schrodinger's Cat Burglar",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1788909787",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1791855399",
     "short_description": "Portal mit Katzen – stürz dich mit allen vier Pfoten in ein quantenverschränkten Rätselabenteuer! Mieze erhält die unglaubliche Fähigkeit, an zwei Orten gleichzeitig zu sein. Erkunde tückische Testkammern, treibe Unfug und entkomme um Schnurrhaaresbreite der Gefangennahme! 🐈🐈‍⬛",
     "developers": [
       "Abandoned Sheep"
@@ -64,9 +64,9 @@
     ],
     "release_date": "21. Mai 2026",
     "price": {
-      "original": "20,49€",
-      "current": "16,39€",
-      "discount_percent": 20
+      "original": "",
+      "current": "20,49€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2111550/"
   },
@@ -115,9 +115,9 @@
     ],
     "release_date": "30. Mai 2025",
     "price": {
-      "original": "9,75€",
-      "current": "4,87€",
-      "discount_percent": 50
+      "original": "",
+      "current": "9,75€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2197890/"
   },
@@ -125,7 +125,7 @@
     "appid": 4656000,
     "name": "BOMBANANA!",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1790377390",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
     "short_description": "Chaos &amp; Spaß beim Bombenentschärfen mit deinen affigen Freunden! In diesem 3-Spieler-Koop spielt ihr blinde, taube und stumme Affen, die nur einen Teil der Infos haben, die ihr braucht. Kommuniziert, löst Rätsel als Team und beeilt euch: Könnt ihr die Bombe entschärfen, bevor sie explodiert?",
     "developers": [
       "Lefto Studio"
@@ -139,9 +139,9 @@
     ],
     "release_date": "2. Sep. 2026",
     "price": {
-      "original": "",
-      "current": "8,15€",
-      "discount_percent": 0
+      "original": "8,15€",
+      "current": "4,89€",
+      "discount_percent": 40
     },
     "steam_url": "https://store.steampowered.com/app/4656000/"
   },
@@ -162,9 +162,9 @@
     ],
     "release_date": "9. Jun. 2026",
     "price": {
-      "original": "6,15€",
-      "current": "4,30€",
-      "discount_percent": 30
+      "original": "",
+      "current": "6,15€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4704690/"
   },
@@ -187,9 +187,9 @@
     ],
     "release_date": "9. Jul. 2026",
     "price": {
-      "original": "14,99€",
-      "current": "11,99€",
-      "discount_percent": 20
+      "original": "",
+      "current": "14,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4380490/"
   },
@@ -197,7 +197,7 @@
     "appid": 3218230,
     "name": "ArcheAge Chronicles",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1789535623",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1792425635",
     "short_description": "Erkunde Auroria, eine weitläufige und lebendige Welt voller Geschichte und aufregender Action. ArcheAge Chronicles bietet ein fesselndes Erlebnis, das die Herzen neuer Spieler und erfahrener Abenteurer gleichermaßen erobern wird.",
     "developers": [
       "XLGAMES"
@@ -209,7 +209,8 @@
       "Action",
       "Abenteuer",
       "MMO",
-      "Rollenspiel"
+      "Rollenspiel",
+      "Early Access"
     ],
     "release_date": "Bevorstehende Ankündigung",
     "price": null,
@@ -219,7 +220,7 @@
     "appid": 2320980,
     "name": "Loftia",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1790802676",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1792418092",
     "short_description": "Willkommen in Loftia, einer gemütlichen Multiplayer-Welt, in der du auf eine bessere und nachhaltigere Zukunft hinarbeitest! Verbringe Zeit mit alten und neuen Freunden: Widmet euch der Landwirtschaft, bastelt, erkundet, dekoriert und bewirkt gemeinsam etwas Bedeutsames.",
     "developers": [
       "Qloud Games"
@@ -244,7 +245,7 @@
     "appid": 3393110,
     "name": "AION 2",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1790806400",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1791504829",
     "short_description": "AION 2 ist das einzige MMORPG, das den Himmel selbst zum Schlachtfeld macht. Wähle deine Fraktion, steige als Daeva auf und kämpfe im Fraktionskrieg in einer Welt, die 36-mal größer ist als im Vorgänger. Entwickelt mit Unreal Engine 5 – exklusiv für PC.",
     "developers": [
       "NC"
@@ -328,7 +329,7 @@
     "appid": 2315050,
     "name": "We Were Here Tomorrow",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/be9a627b8e0b7b0130885f369c2963e5a912753a/header_alt_assets_2.jpg?t=1790675025",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/0827a8808a48b7443d1b1cf6a558b7a9baebf010/header_alt_assets_2.jpg?t=1792401346",
     "short_description": "Du und dein Partner erwacht in einer geheimnisvollen Einrichtung von Norček und wisst nicht mehr, wie ihr dorthin gekommen seid. Kommuniziert, kooperiert und enthüllt die Geheimnisse dieses asymmetrischen Koop-Abenteuers. Nur gemeinsam könnt ihr das Schicksal von morgen beeinflussen ...",
     "developers": [
       "Total Mayhem Games"
@@ -351,7 +352,7 @@
     "appid": 3161310,
     "name": "Hela: of Mice & Magic",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1790616093",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1792414639",
     "short_description": "Entdecke die Welt durch die Augen einer mutigen Maus in diesem bezaubernden 3D-Abenteuer. Erkunde atemberaubende, skandinavisch inspirierte Landschaften, löse Rätsel und kämpfe für das Gute in einem Land, in dem herzerwärmende Geschichten und die Schönheit der Natur miteinander verwoben sind.",
     "developers": [
       "Windup"
@@ -362,7 +363,6 @@
       " Shochiku"
     ],
     "genres": [
-      "Action",
       "Abenteuer"
     ],
     "release_date": "1. Dez. 2026",
@@ -393,7 +393,7 @@
     "appid": 4849240,
     "name": "Duel: The Game Show",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/750c0d9fbfa9b366f39b37615cb314dd5f5bd3fd/header.jpg?t=1789417365",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/750c0d9fbfa9b366f39b37615cb314dd5f5bd3fd/header.jpg?t=1792439452",
     "short_description": "Das ultimative 1-gegen-1-Quizspiel! Fordere deine Freunde in bis zu 15 Runden heraus. Meistere 30 abwechslungsreiche Minispiele, die dein Wissen, dein Rätselvermögen, deine Logik, dein Gedächtnis und deine Schnelligkeit auf die Probe stellen. Wer behält die Nerven und holt sich den ultimativen Sieg?",
     "developers": [
       "Main Stage Games"
@@ -467,9 +467,9 @@
     ],
     "release_date": "6. Jul. 2026",
     "price": {
-      "original": "34,99€",
-      "current": "29,74€",
-      "discount_percent": 15
+      "original": "",
+      "current": "34,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2209900/"
   },
@@ -477,7 +477,7 @@
     "appid": 513710,
     "name": "SCUM",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1787679410",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1791209009",
     "short_description": "Willkommen bei SCUM, einem Open-World-Survival-Spiel, in dem du deinen Charakter nach deinen Vorstellungen erstellen kannst. Plündere, stelle her, jage, baue und kämpfe auf einer feindseligen Insel. Bleib am Leben. Bleib gefährlich. Mach es deinen Gegnern schwer, dich zu töten.",
     "developers": [
       "Gamepires"
@@ -520,9 +520,9 @@
     ],
     "release_date": "23. Okt. 2025",
     "price": {
-      "original": "12,95€",
-      "current": "9,06€",
-      "discount_percent": 30
+      "original": "",
+      "current": "12,95€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2119830/"
   },
@@ -545,9 +545,9 @@
     ],
     "release_date": "7. Aug. 2026",
     "price": {
-      "original": "9,99€",
-      "current": "8,49€",
-      "discount_percent": 15
+      "original": "",
+      "current": "9,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4450620/"
   },
@@ -570,9 +570,9 @@
     ],
     "release_date": "30. Jul. 2026",
     "price": {
-      "original": "7,49€",
-      "current": "5,99€",
-      "discount_percent": 20
+      "original": "",
+      "current": "7,49€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4108000/"
   },
@@ -580,7 +580,7 @@
     "appid": 4660280,
     "name": "DUAL PROTOCOL: The Case of Eva & Miles",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660280/706812c0feb71db9f9a24692a907a01f0ccd7be9/header.jpg?t=1790965168",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4660280/706812c0feb71db9f9a24692a907a01f0ccd7be9/header.jpg?t=1792267989",
     "short_description": "Folge der Spur als Eva oder leite die Operation als Miles. Dual Protocol ist ein asymmetrisches Noir-Rätselspiel auf Basis von Gesprächen. Ohne den Bildschirm des anderen zu sehen: Kombiniert eure Daten und klärt den Mord an Castellari auf.",
     "developers": [
       "AEGEAN CRAFTERS"
@@ -593,10 +593,30 @@
     ],
     "release_date": "2. Okt. 2026",
     "price": {
-      "original": "9,19€",
-      "current": "6,89€",
-      "discount_percent": 25
+      "original": "",
+      "current": "9,19€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4660280/"
+  },
+  {
+    "appid": 2861080,
+    "name": "Haunted Paws",
+    "type": "game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2861080/5663ddbf2c3536ce85bdde73c9b6eb7381f0896d/header.jpg?t=1791540968",
+    "short_description": "Ein gemütlich-schauriges Koop-Abenteuer, in dem zwei Welpen ihre Besitzerin aus einem Spukhaus retten. Gestalte deinen Welpen, löst gemeinsam Rätsel und besiegt böse Kreaturen. Spielt lokal oder lade mit dem Freunde-Pass kostenlos einen Freund ein.",
+    "developers": [
+      "LazyFlock"
+    ],
+    "publishers": [
+      "LazyFlock"
+    ],
+    "genres": [
+      "Abenteuer",
+      "Indie"
+    ],
+    "release_date": "Bevorstehende Ankündigung",
+    "price": null,
+    "steam_url": "https://store.steampowered.com/app/2861080/"
   }
 ]
