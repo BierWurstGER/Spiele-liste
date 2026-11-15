@@ -24,7 +24,7 @@
     "appid": 2661300,
     "name": "Grounded 2",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/b52405d3dd3d4bfd356cd9af7b399bcbc5a23f7e/header.jpg?t=1787010637",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/91c758b9591805d15b26d9fa185a8b9ebab0a334/header.jpg?t=1792539149",
     "short_description": "Vor zwei Jahren wurdest du auf die Größe einer Ameise geschrumpft – und jetzt passiert es schon wieder, aber diesmal ist es anders.",
     "developers": [
       "Obsidian Entertainment",
@@ -50,7 +50,7 @@
     "appid": 2111550,
     "name": "Schrodinger's Cat Burglar",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1791855399",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111550/fce719144a3abd16ce110c0277af94e3e86d25a5/header.jpg?t=1792992228",
     "short_description": "Portal mit Katzen – stürz dich mit allen vier Pfoten in ein quantenverschränkten Rätselabenteuer! Mieze erhält die unglaubliche Fähigkeit, an zwei Orten gleichzeitig zu sein. Erkunde tückische Testkammern, treibe Unfug und entkomme um Schnurrhaaresbreite der Gefangennahme! 🐈🐈‍⬛",
     "developers": [
       "Abandoned Sheep"
@@ -90,9 +90,9 @@
     ],
     "release_date": "16. Jul. 2026",
     "price": {
-      "original": "18,99€",
-      "current": "15,19€",
-      "discount_percent": 20
+      "original": "",
+      "current": "18,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/3914860/"
   },
@@ -125,7 +125,7 @@
     "appid": 4656000,
     "name": "BOMBANANA!",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1791542068",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
     "short_description": "Chaos &amp; Spaß beim Bombenentschärfen mit deinen affigen Freunden! In diesem 3-Spieler-Koop spielt ihr blinde, taube und stumme Affen, die nur einen Teil der Infos haben, die ihr braucht. Kommuniziert, löst Rätsel als Team und beeilt euch: Könnt ihr die Bombe entschärfen, bevor sie explodiert?",
     "developers": [
       "Lefto Studio"
@@ -139,9 +139,9 @@
     ],
     "release_date": "2. Sep. 2026",
     "price": {
-      "original": "8,15€",
-      "current": "4,89€",
-      "discount_percent": 40
+      "original": "",
+      "current": "8,15€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/4656000/"
   },
@@ -172,7 +172,7 @@
     "appid": 4380490,
     "name": "Cat Mail Co.",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1790596384",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/9c206d8a7c8a6133230628b6326f4f08a683b40e/header.jpg?t=1794483806",
     "short_description": "Halte ein gemütliches Katzenpostamt am Laufen. Hole Päckchen vom Boot, sortiere sie, stelle sie zu und ordne alles so, wie du willst. Nachts offenbart der Mond verborgenes Wissen über die Pakete. Beseitige den mysteriösen Berg von Paketen und schalte neue Fähigkeiten und Zielorte frei.",
     "developers": [
       "Maracas Studio"
@@ -197,7 +197,7 @@
     "appid": 3218230,
     "name": "ArcheAge Chronicles",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1792425635",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg?t=1793752512",
     "short_description": "Erkunde Auroria, eine weitläufige und lebendige Welt voller Geschichte und aufregender Action. ArcheAge Chronicles bietet ein fesselndes Erlebnis, das die Herzen neuer Spieler und erfahrener Abenteurer gleichermaßen erobern wird.",
     "developers": [
       "XLGAMES"
@@ -212,15 +212,19 @@
       "Rollenspiel",
       "Early Access"
     ],
-    "release_date": "Bevorstehende Ankündigung",
-    "price": null,
+    "release_date": "3. Nov. 2026",
+    "price": {
+      "original": "",
+      "current": "29,99€",
+      "discount_percent": 0
+    },
     "steam_url": "https://store.steampowered.com/app/3218230/"
   },
   {
     "appid": 2320980,
     "name": "Loftia",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1792418092",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg?t=1794115632",
     "short_description": "Willkommen in Loftia, einer gemütlichen Multiplayer-Welt, in der du auf eine bessere und nachhaltigere Zukunft hinarbeitest! Verbringe Zeit mit alten und neuen Freunden: Widmet euch der Landwirtschaft, bastelt, erkundet, dekoriert und bewirkt gemeinsam etwas Bedeutsames.",
     "developers": [
       "Qloud Games"
@@ -238,14 +242,18 @@
       "Early Access"
     ],
     "release_date": "3. Nov. 2026",
-    "price": null,
+    "price": {
+      "original": "28,99€",
+      "current": "24,06€",
+      "discount_percent": 17
+    },
     "steam_url": "https://store.steampowered.com/app/2320980/"
   },
   {
     "appid": 3393110,
     "name": "AION 2",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1791504829",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1792771538",
     "short_description": "AION 2 ist das einzige MMORPG, das den Himmel selbst zum Schlachtfeld macht. Wähle deine Fraktion, steige als Daeva auf und kämpfe im Fraktionskrieg in einer Welt, die 36-mal größer ist als im Vorgänger. Entwickelt mit Unreal Engine 5 – exklusiv für PC.",
     "developers": [
       "NC"
@@ -288,7 +296,7 @@
     "appid": 3714800,
     "name": "Warlock: Dungeons & Dragons",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714800/490d2a85ec645883df3a1f930c37f3b26e630a26/header.jpg?t=1787767629",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714800/490d2a85ec645883df3a1f930c37f3b26e630a26/header.jpg?t=1792520464",
     "short_description": "Verkörpere Kaatri in Warlock, einem Einzelspieler-Action-Adventure in Third Person mit einer von Dungeons &amp; Dragons inspirierten offenen Welt. Brich die Regeln mit verbotener Magie. In Erkundung wie Kampf stellt jede Herausforderung deine Kreativität, Vorbereitung und Cleverness auf die Probe.",
     "developers": [
       "Invoke Studios"
@@ -308,7 +316,7 @@
     "appid": 1728620,
     "name": "IKUMA - The Frozen Compass",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1728620/header.jpg?t=1769174404",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1728620/header.jpg?t=1794511936",
     "short_description": "Begib dich auf eine fesselnde Reise in die Kälte – allein oder mit einem Freund. IKUMA erzählt die Geschichte von Sam, einem Teenager, der mit seinem Hund in der Arktis strandet. Doch neben der eisigen Wildnis lauert noch etwas im Schatten. Wirst du einen Weg durch die Dunkelheit finden?",
     "developers": [
       "Mooneye Studios"
@@ -321,7 +329,7 @@
       "Abenteuer",
       "Indie"
     ],
-    "release_date": "2026",
+    "release_date": "2027",
     "price": null,
     "steam_url": "https://store.steampowered.com/app/1728620/"
   },
@@ -329,7 +337,7 @@
     "appid": 2315050,
     "name": "We Were Here Tomorrow",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/0827a8808a48b7443d1b1cf6a558b7a9baebf010/header_alt_assets_2.jpg?t=1792401346",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/1e74865089e86e73fe7abefec0f5b59c1ce48305/header_alt_assets_3.jpg?t=1792695687",
     "short_description": "Du und dein Partner erwacht in einer geheimnisvollen Einrichtung von Norček und wisst nicht mehr, wie ihr dorthin gekommen seid. Kommuniziert, kooperiert und enthüllt die Geheimnisse dieses asymmetrischen Koop-Abenteuers. Nur gemeinsam könnt ihr das Schicksal von morgen beeinflussen ...",
     "developers": [
       "Total Mayhem Games"
@@ -341,18 +349,21 @@
       "Action",
       "Abenteuer",
       "Gelegenheitsspiele",
-      "Indie",
-      "Kostenlos spielbar"
+      "Indie"
     ],
     "release_date": "20. Okt. 2026",
-    "price": null,
+    "price": {
+      "original": "",
+      "current": "19,99€",
+      "discount_percent": 0
+    },
     "steam_url": "https://store.steampowered.com/app/2315050/"
   },
   {
     "appid": 3161310,
     "name": "Hela: of Mice & Magic",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1792414639",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/868b1938e4540924707c8db978d494322757e28d/header.jpg?t=1794321826",
     "short_description": "Entdecke die Welt durch die Augen einer mutigen Maus in diesem bezaubernden 3D-Abenteuer. Erkunde atemberaubende, skandinavisch inspirierte Landschaften, löse Rätsel und kämpfe für das Gute in einem Land, in dem herzerwärmende Geschichten und die Schönheit der Natur miteinander verwoben sind.",
     "developers": [
       "Windup"
@@ -393,7 +404,7 @@
     "appid": 4849240,
     "name": "Duel: The Game Show",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/750c0d9fbfa9b366f39b37615cb314dd5f5bd3fd/header.jpg?t=1792439452",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4849240/3f224a642131c5b7ec8911bf54f7ebe767e68a88/header.jpg?t=1793120507",
     "short_description": "Das ultimative 1-gegen-1-Quizspiel! Fordere deine Freunde in bis zu 15 Runden heraus. Meistere 30 abwechslungsreiche Minispiele, die dein Wissen, dein Rätselvermögen, deine Logik, dein Gedächtnis und deine Schnelligkeit auf die Probe stellen. Wer behält die Nerven und holt sich den ultimativen Sieg?",
     "developers": [
       "Main Stage Games"
@@ -405,7 +416,11 @@
       "Gelegenheitsspiele"
     ],
     "release_date": "27. Okt. 2026",
-    "price": null,
+    "price": {
+      "original": "",
+      "current": "9,99€",
+      "discount_percent": 0
+    },
     "steam_url": "https://store.steampowered.com/app/4849240/"
   },
   {
@@ -477,7 +492,7 @@
     "appid": 513710,
     "name": "SCUM",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1791209009",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg?t=1794413042",
     "short_description": "Willkommen bei SCUM, einem Open-World-Survival-Spiel, in dem du deinen Charakter nach deinen Vorstellungen erstellen kannst. Plündere, stelle her, jage, baue und kämpfe auf einer feindseligen Insel. Bleib am Leben. Bleib gefährlich. Mach es deinen Gegnern schwer, dich zu töten.",
     "developers": [
       "Gamepires"
@@ -493,9 +508,9 @@
     ],
     "release_date": "17. Jun. 2025",
     "price": {
-      "original": "44,99€",
-      "current": "17,99€",
-      "discount_percent": 60
+      "original": "",
+      "current": "44,99€",
+      "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/513710/"
   },
@@ -503,7 +518,7 @@
     "appid": 2119830,
     "name": "MISERY",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2119830/f4aa2f3b4b352f7f373026fe592d32eef2c72fce/header.jpg?t=1788449842",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2119830/f4aa2f3b4b352f7f373026fe592d32eef2c72fce/header.jpg?t=1793749432",
     "short_description": "MISERY ist ein Koop-Survival-Spiel für 1–10 Spieler in einer nuklearen Zone. Jeder Tag ist ein Kampf: Durchsucht Ruinen nach Ressourcen, baut Bunker, fertigt Waffen und erkundet mit Freunden eine prozedural generierte Welt. Hütet euch vor Anomalien, Monstern und Banditen.",
     "developers": [
       "Platypus Entertainment"
@@ -521,7 +536,7 @@
     "release_date": "23. Okt. 2025",
     "price": {
       "original": "",
-      "current": "12,95€",
+      "current": "19,95€",
       "discount_percent": 0
     },
     "steam_url": "https://store.steampowered.com/app/2119830/"
@@ -530,7 +545,7 @@
     "appid": 4450620,
     "name": "GRAIN ROT",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/697974067797577ee1803c37a44b4217d886502a/header.jpg?t=1786114521",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450620/697974067797577ee1803c37a44b4217d886502a/header.jpg?t=1793646224",
     "short_description": "Ein Horror-Koop-Extraktions-Builder in einer brennenden Ödnis. Steige mit Freunden in die Ruinen hinab, zerschlagt Möbel und sucht nach Beute, bevor die Verdorbenen auftauchen. Schafft es lebend zurück und baut den Außenposten wieder auf, um die Chancen für den nächsten Durchlauf zu verbessern.",
     "developers": [
       "Beck & Branch Games"
@@ -555,7 +570,7 @@
     "appid": 4108000,
     "name": "Machine Party",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1790860377",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/00ae7d0e0fd0ad72635bddb1dd80ee68cc94eed5/header.jpg?t=1793352925",
     "short_description": "Machine Party ist eine Sammlung brutaler Partyspiele, bei denen ein Scheitern tödlich endet. Trommle deine Freunde zusammen und stelle dich lebensgefährlichen Situationen, um zu beweisen, dass dein Leben mehr wert ist als das der anderen. Überleben ist unwahrscheinlich.",
     "developers": [
       "Mike Klubnika",
@@ -603,7 +618,7 @@
     "appid": 2861080,
     "name": "Haunted Paws",
     "type": "game",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2861080/5663ddbf2c3536ce85bdde73c9b6eb7381f0896d/header.jpg?t=1791540968",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2861080/5663ddbf2c3536ce85bdde73c9b6eb7381f0896d/header.jpg?t=1793198245",
     "short_description": "Ein gemütlich-schauriges Koop-Abenteuer, in dem zwei Welpen ihre Besitzerin aus einem Spukhaus retten. Gestalte deinen Welpen, löst gemeinsam Rätsel und besiegt böse Kreaturen. Spielt lokal oder lade mit dem Freunde-Pass kostenlos einen Freund ein.",
     "developers": [
       "LazyFlock"
@@ -615,7 +630,7 @@
       "Abenteuer",
       "Indie"
     ],
-    "release_date": "Bevorstehende Ankündigung",
+    "release_date": "Mai 2027",
     "price": null,
     "steam_url": "https://store.steampowered.com/app/2861080/"
   }
